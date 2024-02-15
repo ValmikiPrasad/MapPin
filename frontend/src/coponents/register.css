@@ -1,0 +1,89 @@
+.register{
+    position: absolute;
+    /* background-color: black; */
+    width: 100%;
+    height: 88vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.registerContainer{
+    /* position: absolute; */
+    width: 320px;
+    height: 300px;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.logoinside{
+    width: 100px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-bottom: -15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 3px; */
+    font-size: 15px;
+    font-weight: bold;
+}
+form{
+    height: 250px;
+    width: 450px;
+    /* backdrop-filter: blur(10px); */
+    /* backdrop-filter: invert(80%); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+  }
+  input{
+    width: 90%;
+    height: 22px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: -10px;
+  }
+  .registerBtn{
+    width: 90%;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgb(62, 165, 62);
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+.success{
+    color: rgb(124, 95, 0);
+    font-size: 12px;
+    margin-top: -25px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+.failure{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: -5px;
+}
+.registerCancel{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: rgb(0, 2, 90);
+    cursor: pointer;
+}
